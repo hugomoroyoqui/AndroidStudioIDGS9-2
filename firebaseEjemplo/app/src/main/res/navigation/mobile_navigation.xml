@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_test_firebase">
+
+    <fragment
+        android:id="@+id/nav_test_firebase"
+        android:name="com.ut.firebaseejemplo.Fragments.TestFirebase"
+        android:label="@string/menu_test_firebase"
+        tools:layout="@layout/fragment_test_firebase" />
+
+    <fragment
+        android:id="@+id/nav_checker"
+        android:name="com.ut.firebaseejemplo.Fragments.Checker"
+        android:label="@string/menu_checker"
+        tools:layout="@layout/fragment_checker" />
+
+    <fragment
+        android:id="@+id/nav_checker_list"
+        android:name="com.ut.firebaseejemplo.Fragments.CheckerList"
+        android:label="@string/menu_checker_list"
+        tools:layout="@layout/fragment_checker_list" />
+</navigation>
